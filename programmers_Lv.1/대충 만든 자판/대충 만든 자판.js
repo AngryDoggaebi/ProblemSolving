@@ -10,7 +10,7 @@ function solution(keymap, targets) {
                     n = (keymap[k].indexOf(targets[i][j]));   
                 } else { n = 101; }  
                 arr.push(n);
-                cnt = Math.min(...arr);
+                cnt = Math.min(...arr)+1;
             }
         }
         answer.push(cnt);
