@@ -23,4 +23,4 @@ function solution(keymap, targets) {
     return answer;
 }
 
-//미완성 코드(정확성: 56.5)
+//실패(정확성: 56.5)
