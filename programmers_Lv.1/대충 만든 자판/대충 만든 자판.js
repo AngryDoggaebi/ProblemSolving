@@ -13,6 +13,7 @@ function solution(keymap, targets) {
             }
             if(Math.min(...arr) === 101){
                 cnt = -1;
+                j++;
             } else {
                 cnt+=Math.min(...arr)+1;
             }
