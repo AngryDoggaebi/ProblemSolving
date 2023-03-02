@@ -8,12 +8,12 @@ function solution(keymap, targets) {
             for(let k=0; k<keymap.length; k++){
                 if(keymap[k].includes(targets[i][j])){
                     n = (keymap[k].indexOf(targets[i][j]));   
-                } else { n = 101; }  
+                } else { n = 101; }
                 arr.push(n);
             }
             if(Math.min(...arr) === 101){
                 cnt = -1;
-                j++;
+                break;
             } else {
                 cnt+=Math.min(...arr)+1;
             }
@@ -23,5 +23,3 @@ function solution(keymap, targets) {
     }   
     return answer;
 }
-
-//실패(정확성: 56.5)
