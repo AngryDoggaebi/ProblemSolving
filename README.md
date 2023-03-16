@@ -17,3 +17,4 @@
        - Lv.1 대충 만든 자판<br>
        - transformFirstAndLast<br>
        - computeWhenDouble<br>
+       - powerOfTwo<br>
