@@ -18,3 +18,4 @@
        - transformFirstAndLast<br>
        - computeWhenDouble<br>
        - powerOfTwo<br>
+       - firstCharacter<br>
