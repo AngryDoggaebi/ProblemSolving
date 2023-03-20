@@ -19,3 +19,4 @@
        - computeWhenDouble<br>
        - powerOfTwo<br>
        - firstCharacter<br>
+       - firstReverse<br>
