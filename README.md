@@ -20,3 +20,4 @@
        - powerOfTwo<br>
        - firstCharacter<br>
        - firstReverse<br>
+       - letterCapitalize<br>
