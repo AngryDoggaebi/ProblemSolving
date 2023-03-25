@@ -21,3 +21,5 @@
        - firstCharacter<br>
        - firstReverse<br>
        - letterCapitalize<br>
+       - convertListToObject<br>
+       - ABCcheck
