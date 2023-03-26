@@ -11,7 +11,6 @@ function solution(num, total) {
     }
     arr.push(...Array(1000).fill().map((x,i)=>{return i})); 
     
-    let n = 0;
     for(let i=0; i<arr.length; i++){
         answer = arr.slice(i, i+num);
         if(answer.reduce((acc, cur)=>{return acc+cur},0) === total){
