@@ -27,3 +27,4 @@
        - Lv.0 다음에 올 숫자<br>
        - Lv.0 연속된 수의 합<br>
        - insertDash
+       - removeExtremes
