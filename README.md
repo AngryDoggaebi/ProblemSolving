@@ -28,3 +28,4 @@
        - Lv.0 연속된 수의 합<br>
        - insertDash<br>
        - removeExtremes<br>
+       - Lv.0 세균 증식<br>
