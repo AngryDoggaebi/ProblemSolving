@@ -29,4 +29,5 @@
        - insertDash<br>
        - removeExtremes<br>
        - Lv.0 세균 증식<br>
-       - findBugInApples
+       - findBugInApples<br>
+       - Lv.0 제곱수 판별하기<br>
