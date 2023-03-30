@@ -34,3 +34,4 @@
        - Lv.0 문자열안에 문자열<br>
        - readVertically<br>
        - 자릿수 더하기<br>
+       - Lv.0 n의 배수 고르기<br>
