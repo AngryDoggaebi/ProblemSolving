@@ -37,3 +37,4 @@
        - Lv.0 n의 배수 고르기<br>
        - superIncreasing<br>
        - Lv.0 숫자 찾기<br>
+       - Lv.0 배열의 유사도<br>
