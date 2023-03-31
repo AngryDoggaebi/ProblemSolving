@@ -35,3 +35,4 @@
        - readVertically<br>
        - 자릿수 더하기<br>
        - Lv.0 n의 배수 고르기<br>
+       - superIncreasing<br>
