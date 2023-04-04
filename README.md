@@ -41,4 +41,5 @@
        - Lv.0 편지<br>
        - Lv.0 문자열 계산하기<br>
        - modulo<br>
-       - Lv.0 약수 구하기
+       - Lv.0 약수 구하기<br>
+       - isIsogram<br>
