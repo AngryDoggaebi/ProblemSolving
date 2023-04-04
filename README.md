@@ -43,3 +43,4 @@
        - modulo<br>
        - Lv.0 약수 구하기<br>
        - isIsogram<br>
+       - computeSquareRoot<br>
