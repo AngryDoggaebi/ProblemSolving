@@ -45,3 +45,4 @@
        - isIsogram<br>
        - computeSquareRoot<br>
        - 한 번만 등장한 문자<br>
+       - numberSearch<br>
