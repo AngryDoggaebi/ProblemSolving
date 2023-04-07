@@ -47,4 +47,5 @@
        - 한 번만 등장한 문자<br>
        - numberSearch<br>
        - decryptCaesarCipher<br>
-       - 인덱스 바꾸기<br>
+       - Lv.0 인덱스 바꾸기<br>
+       - Lv.0 최빈값 구하기<br>
