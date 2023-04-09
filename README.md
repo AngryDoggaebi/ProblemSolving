@@ -49,3 +49,4 @@
        - decryptCaesarCipher<br>
        - Lv.0 인덱스 바꾸기<br>
        - Lv.0 최빈값 구하기<br>
+       - Lv.0 치킨 쿠폰<br>
