@@ -15,16 +15,21 @@ function solution(polynomial) {
         }
     }
     
-    if(xNum === 1){
-        if(num === 0) result = `x`;
-        else if(xNum === 0) result = `${num}`;
-        else result = `x + ${num}`;
-    } else {
-        if(num === 0) result = `${xNum}x`;
-        else if(xNum === 0) result = `${num}`;
-        else result = `${xNum}x + ${num}`;
-    }
+//     if(xNum === 1){
+//         if(num === 0) result = `x`;
+//         else if(xNum === 0) result = `${num}`;
+//         else result = `x + ${num}`;
+//     } else {
+//         if(num === 0) result = `${xNum}x`;
+//         else if(xNum === 0) result = `${num}`;
+//         else result = `${xNum}x + ${num}`;
+//     }
     
-    return result
+//     return result
+    
+    let arr = []
+    if(xNum) arr.push(`${xNum === 1 ? '' : xNum}x`);
+    if(num) arr.push(`${num}`);
+    return arr.join(' + ')
     
 }
