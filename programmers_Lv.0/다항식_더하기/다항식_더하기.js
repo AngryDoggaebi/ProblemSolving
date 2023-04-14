@@ -30,6 +30,7 @@ function solution(polynomial) {
     let arr = []
     if(xNum) arr.push(`${xNum === 1 ? '' : xNum}x`);
     if(num) arr.push(`${num}`);
+    
     return arr.join(' + ')
     
 }
