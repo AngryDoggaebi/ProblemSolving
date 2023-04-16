@@ -55,5 +55,6 @@
        - 21_largestProductOfThree<br>
        - Lv.0 A로 B 만들기<br>
        - 22_fibonacci<br>
-       - 대문자와 소문자<br>
-       - 다항식 더하기<br>
+       - Lv.0 대문자와 소문자<br>
+       - Lv.0 다항식 더하기<br>
+       - Lv.0 주사위의 개수<br>
