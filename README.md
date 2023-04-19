@@ -62,3 +62,4 @@
        - 23_bubbleSort<br>
        - Lv.0 중복된 문자 제거<br>
        - 24_isSubsetOf<br>
+       - Lv.0 영어가 싫어요<br>
