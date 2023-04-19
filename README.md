@@ -61,3 +61,4 @@
        - Lv.0 피자 나눠 먹기 (2)<br>
        - 23_bubbleSort<br>
        - Lv.0 중복된 문자 제거<br>
+       - 24_isSubsetOf<br>
