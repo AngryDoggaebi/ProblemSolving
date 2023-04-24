@@ -66,3 +66,5 @@
        - 24_isSubsetOf<br>
        - Lv.0 영어가 싫어요<br>
        - Lv.0 숨어있는 숫자의 덧셈 (1)<br>
+       - 25_tiling<br>
+       - Lv.0 진료 순서 정하기<br>
