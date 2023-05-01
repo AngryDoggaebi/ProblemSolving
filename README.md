@@ -14,6 +14,7 @@
        - Lv.0 암호 해독<br>
        - Lv.0 캐릭터의 좌표<br>
        - Lv.1 삼총사<br>
+
 * 2023.03<br>
        - Lv.1 대충 만든 자판<br>
        - transformFirstAndLast<br>
@@ -40,6 +41,7 @@
        - superIncreasing<br>
        - Lv.0 숫자 찾기<br>
        - Lv.0 배열의 유사도<br>
+
 * 2023.04<br>
        - Lv.0 편지<br>
        - Lv.0 문자열 계산하기<br>
@@ -80,3 +82,6 @@
        - Lv.0 직각삼각형 출력하기<br>
        - Lv.0 소인수분해<br>
        - Lv.0 삼각형의 완성조건 (2)<br>
+
+* 2023.05<br>
+       - Lv.0 직사각형 넓이 구하기<br>
