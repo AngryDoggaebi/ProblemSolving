@@ -93,5 +93,5 @@
        - Lv.0 옹알이<br>
        - Lv.0 평행<br>
        
-<img src="https://github.com/AngryDoggaebi/ProblemSolving/assets/120698922/dd632aa3-26a5-4bf7-9226-38c897935c82">
+<img width="70%" src="https://github.com/AngryDoggaebi/ProblemSolving/assets/120698922/dd632aa3-26a5-4bf7-9226-38c897935c82">
        
