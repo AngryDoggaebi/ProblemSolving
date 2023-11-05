@@ -1,0 +1,27 @@
+function solution(s){
+    var answer = true;
+    
+    let a = [];
+    
+    for(let i=0; i<s.length; i++){
+        // s[0]이 )면 false 또는 a스택이 0일 때 )가 먼저 들어오면 false
+        if(i === 0 && s[i] === ")" || a.length === 0 && s[i] === ")"){
+            return false
+        }
+        
+        // a스택에 ( 쌓기, )가 들어오면 마지막 ( 빼기
+        if(s[i] === "("){
+            a.push(s[i]);
+        } else if(s[i] === ")"){
+            a.pop();
+        }
+
+    }
+    
+    // 모두 짝이 맞아 삭제되어 a.length 가 0일 경우 true, 남은 ( 값이 있으면 false
+    if(a.length === 0){
+        return true;
+    } else {
+        return false;
+    }
+}
