@@ -1,0 +1,24 @@
+function solution(n) {
+    // 자기 자신의 경우
+    var answer = 1;
+    
+    for(let i=1; i<=n; i++){
+        let cal = 0;
+        let j = i
+        while(j <= n){
+            // 더한 값이 n과 같으면 answer++, return
+            if(cal === n){
+                answer++
+                break
+            } else if (cal > n){
+                break
+            }
+            // 더하기
+            cal = cal + j
+            // j 올림
+            j++
+        }
+    }
+    
+    return answer;
+}
