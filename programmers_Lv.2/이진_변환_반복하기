@@ -1,0 +1,21 @@
+function solution(s) {
+    var answer = [];
+    let zeroCnt = 0;
+    let roundCnt = 0;
+    
+    while(s !== "1"){
+
+        // 0제거
+        let noZeroArr = s.split('').filter(v => v === "1")
+        // 저장
+        roundCnt ++
+        zeroCnt = zeroCnt + s.split('').length - noZeroArr.length
+        // 이진법으로 변경
+        s = Number(noZeroArr.join('').length).toString(2)
+        
+    }
+    
+    answer = [roundCnt, zeroCnt]
+    
+    return answer;
+}
