@@ -1,0 +1,19 @@
+function solution(n) {
+    var answer = 0;
+    let i = n+1
+    const n1Cnt = f(n) //함수호이스팅
+    
+    function f (i) {
+        return i.toString(2).split("").filter((v)=>{return v === "1"}).length
+    }
+    
+    while(i > n){
+        if(f(i) === n1Cnt) {
+            answer = i
+            break;
+        }
+        i++
+    }
+    
+    return answer;
+}
