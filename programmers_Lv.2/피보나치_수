@@ -1,0 +1,11 @@
+function solution(n) {
+    let cnt = 2;
+    let fib = [0,1]
+    
+    while(cnt <= n){
+        fib.push(fib[cnt-1]%1234567+fib[cnt-2]%1234567)%1234567
+        cnt++
+    }
+    
+    return fib[n]%1234567
+}
