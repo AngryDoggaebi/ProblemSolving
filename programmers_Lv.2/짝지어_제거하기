@@ -1,23 +1,29 @@
 function solution(s)
 {
-    let str = s.split('')
-
+    s = s.split('')
+    let aStack =[]
+    let bStack =[]
     
-    for(let i = 0; i < str.length; i++){
-       if(str[i] === str[i+1]){
-           str.splice(i, 2)
-           if(str.length !== 0){
-               i = -1
-           }
-       }
+    const f = (stack1, stack2, s, i) => {
+         if(s[i] === stack1[stack1.length-1]){
+                stack1.pop()
+            } else {
+                stack2.push(s[i])
+            }
     }
     
-    if(str.length === 0){
+    for(let i = 0 ; i < s.length; i++){
+        if(i % 2 !== 0){
+            f(bStack, aStack, s, i)
+        } else if(i % 2 === 0){
+            f(aStack, bStack, s, i)
+        }
+    }
+    
+    if(aStack.length === 0 && bStack.length === 0){
         return 1
     } else {
         return 0
     }
-
+ 
 }
-
-// 정답률 56%
