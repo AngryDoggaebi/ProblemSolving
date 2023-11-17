@@ -1,0 +1,21 @@
+function solution(s)
+{
+    let str = s.split('')
+
+    
+    for(let i = 0; i < str.length; i++){
+       if(str[i] === str[i+1]){
+           str.splice(i, 2)
+           if(str.length !== 0){
+               i = -1
+           }
+       }
+    }
+    
+    if(str.length === 0){
+        return 1
+    } else {
+        return 0
+    }
+
+}
